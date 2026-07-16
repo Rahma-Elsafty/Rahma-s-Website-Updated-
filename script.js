@@ -34,11 +34,11 @@
       technologies: ['Python (BeautifulSoup)', 'Matplolib','Pandas','PowerBI'],
     },
     {
-      title: 'Personal Dashboard',
-      description: 'An interactive data visualization dashboard built with vanilla JavaScript, displaying real-time analytics and insights from multiple data sources.',
-      image: 'assets/project3.svg',
-      github: 'https://github.com/rahma/dashboard',
-      technologies: ['JavaScript', 'HTML', 'CSS', 'D3.js'],
+      title: 'Future Project',
+      description: 'Currently working on new ideas in AI, data engineering, and machine learning. Stay tuned for upcoming projects and experiments.',
+      image: 'assets/working.jpg',
+      github: 'https://github.com/Rahma-Elsafty',
+      technologies: ['AI' ,'Machine Learning'],
     },
   ];
 
