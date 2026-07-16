@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Rahma - Computer Science Student specializing in AI, Machine Learning, and Data Analysis">
+  <title>Rahma | Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode" role="button" tabindex="0">
+    <svg class="sun-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/>
+    </svg>
+    <svg class="moon-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/>
+    </svg>
+  </div>
+
+  <nav class="navbar" id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Home">Rahma.</a>
+      <ul class="nav-menu" id="nav-menu" role="menubar">
+        <li role="none"><a href="#home" class="nav-link active" role="menuitem">Home</a></li>
+        <li role="none"><a href="#about" class="nav-link" role="menuitem">About</a></li>
+        <li role="none"><a href="#skills" class="nav-link" role="menuitem">Skills</a></li>
+        <li role="none"><a href="#projects" class="nav-link" role="menuitem">Projects</a></li>
+        <li role="none"><a href="#contact" class="nav-link" role="menuitem">Contact</a></li>
+      </ul>
+      <button class="hamburger" id="hamburger" aria-label="Toggle navigation menu" aria-expanded="false">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <section id="home" class="hero section">
+      <div class="hero-container">
+        <div class="hero-content fade-in">
+          <p class="hero-greeting">Hello,</p>
+          <h1 class="hero-name">I'm <span class="highlight">Rahma.</span></h1>
+          <p class="hero-title">Computer Science Student</p>
+          <p class="hero-subtitle">AI &middot; Machine Learning &middot; Data Analysis</p>
+          <p class="hero-description">I enjoy building intelligent software, exploring machine learning, and designing clean digital experiences.</p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+          </div>
+        </div>
+        <div class="hero-visual fade-in">
+          <div class="profile-blob">
+            <img src="assets/me.png" alt="Rahma's profile picture" class="profile-img" loading="eager">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">About</span>
+          <h2 class="section-title">Who I Am</h2>
+        </div>
+        <div class="about-content fade-in">
+          <p>
+            I am a dedicated Computer Science student with a deep passion for Artificial Intelligence, Machine Learning, and Data Analysis.
+            My journey in technology began with curiosity about how intelligent systems work, and has grown into a commitment to building
+            solutions that make a difference.
+          </p>
+          <p>
+            I specialize in turning data into meaningful insights and building software that learns and adapts. Whether it's training
+            models, analyzing complex datasets, or crafting clean user interfaces, I approach every project with enthusiasm and precision.
+          </p>
+          <p>
+            When I'm not coding, you'll find me exploring new technologies, contributing to open-source projects, or enjoying a quiet
+            cup of coffee while reading about the latest in AI research.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Skills</span>
+          <h2 class="section-title">My Toolkit</h2>
+        </div>
+        <div class="skills-grid fade-in" id="skills-grid">
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="projects section">
+      <div class="container">
+        <div class="section-header fade-in">
+          <span class="section-tag">Projects</span>
+          <h2 class="section-title">What I've Built</h2>
+        </div>
+        <div class="projects-grid fade-in" id="projects-grid">
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact section">
+      <div class="container">
+        <div class="contact-content fade-in">
+          <h2 class="contact-title">Let's build something <span class="highlight">together.</span></h2>
+          <p class="contact-text">
+            Feel free to contact me for internships, collaborations, research opportunities, freelance work,
+            or simply to connect.
+          </p>
+          <div class="contact-links">
+            <a href="https://github.com/Rahma-Elsafty" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="GitHub Profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.37 0 0 5.37 0 12c0 5.31 3.435 9.795 8.205 11.385.6.105.825-.255.825-.57 0-.285-.015-1.23-.015-2.235-3.015.555-3.795-.735-4.035-1.41-.135-.345-.72-1.41-1.23-1.695-.42-.225-1.02-.78-.015-.795.945-.015 1.62.87 1.845 1.23 1.08 1.815 2.805 1.305 3.495.99.105-.78.42-1.305.765-1.605-2.67-.3-5.46-1.335-5.46-5.925 0-1.305.465-2.385 1.23-3.225-.12-.3-.54-1.53.12-3.18 0 0 1.005-.315 3.3 1.23.96-.27 1.98-.405 3-.405s2.04.135 3 .405c2.295-1.56 3.3-1.23 3.3-1.23.66 1.65.24 2.88.12 3.18.765.84 1.23 1.905 1.23 3.225 0 4.605-2.805 5.625-5.475 5.925.435.375.81 1.095.81 2.22 0 1.605-.015 2.895-.015 3.3 0 .315.225.69.825.57A12.02 12.02 0 0 0 24 12c0-6.63-5.37-12-12-12z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/rahma-el-safty-44335833b/" target="_blank" rel="noopener noreferrer" class="social-link" aria-label="LinkedIn Profile">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            </a>
+            <a href="mailto:rahma.elsafty100@gmail.com" class="social-link" aria-label="Send Email">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            </a>
+          </div>
+          <a href="mailto:rahma.elsafty100@gmail.co" class="btn btn-primary contact-btn">Send Email</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <p class="footer-name">Rahma</p>
+      <p class="footer-copy">&copy; <span id="year"></span> All rights reserved.</p>
+      <p class="footer-note">Built with HTML, CSS, and Vanilla JavaScript.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
